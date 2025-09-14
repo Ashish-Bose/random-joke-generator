@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Joke Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Random Joke Generator</h1>
+    <label for="category">Choose a category:</label>
+    <select id="category">
+        <option value="Any">Any</option>
+        <option value="Programming">Programming</option>
+        <option value="Pun">Pun</option>
+        <option value="Spooky">Spooky</option>
+        <option value="Christmas">Christmas</option>
+        <option value="Misc">Miscellaneous</option>
+    </select>
+    <button id="fetch-btn">Get Joke</button>
+    <button id="speak-btn" disabled>Speak Joke</button>
+    
+    <div id="joke-info">
+        <!-- Jokes will appear here -->
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
